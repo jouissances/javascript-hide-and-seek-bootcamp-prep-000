@@ -1,3 +1,4 @@
 function getFirstSelector(selector) {
-  return document.querySelector('div');
+  document.querySelector('div');
+  document.querySelector('ul.ranked-list');
 }
