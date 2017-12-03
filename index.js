@@ -10,5 +10,5 @@ function increaseRankBy(n) {
   const ranks = document.getElementsByClassName('ranked-list');
   for (let i = 0; i < ranks.length; i++) {
     ranks[i].innerHTML = (i + parseInt(n)).toString()
-  };
+  }
 }
