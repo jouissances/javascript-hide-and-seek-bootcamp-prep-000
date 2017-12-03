@@ -1,3 +1,3 @@
 function getFirstSelector(selector) {
-  return document.getElementById('nested').querySelector('.ranked-list');
+  return document.querySelector('div');
 }
